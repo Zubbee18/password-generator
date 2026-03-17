@@ -6,26 +6,29 @@
         <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Generate a</h1>
-        <h1 class="highlight">random password</h1>
-        <h2>Never use an insecure password again. Input your password length below.</h2>
+        <div class=”generate-password”>
+            <h1>Generate a</h1>
+            <h1 class="highlight">random password</h1>
+            <h2>Never use an insecure password again. Input your password length below.</h2>
         
-        <button onclick="renderPassword()">Generate passwords</button>
+            <button onclick="renderPassword()">Generate passwords</button>
         
-        <div class="inputs">
-            <input type="number" min="5" max="15" class="password-length">
-            <!-- <label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-            </label> -->
+            <div class="inputs">
+               <input type="number" min="5" max="15" class="password-length">
+               <!-- <label class="switch">
+                   <input type="checkbox">
+                   <span class="slider round"></span>
+               </label> -->
+            </div>
+        
+            <hr>
+        
+            <div class="password-container">
+                <div class="password div1"></div>
+                <div class="password div2"></div>
+            </div>
         </div>
         
-        <hr>
-        
-        <div class="password-container">
-            <div class="password div1"></div>
-            <div class="password div2"></div>
-        </div>
         <script src="index.js"></script>
     </body>
 </html>
