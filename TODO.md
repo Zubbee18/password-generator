@@ -1,0 +1,4 @@
+- Add a validation to the input field, between 5-20
+- Repair the undefined issue, for now I just don't display it
+- add toggle for characters and numbers off
+- adjust the position of the slider to perfectly align
